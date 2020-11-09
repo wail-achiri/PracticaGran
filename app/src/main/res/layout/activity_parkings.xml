@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/simpleTableLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#262522"> <!-- stretch the second column of the layout-->
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+        <TextView
+            android:text="PARKINGS DE GRANOLLERS"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:textSize="25sp"
+            android:textColor="#e4f0e7"
+            >
+        </TextView>
+
+        <!-- first row of the table layout-->
+        <TableRow
+
+            android:id="@+id/primeraFila"
+
+            android:layout_height="wrap_content"
+            android:background="#595447"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="75dp">
+
+            <!-- first element of the row-->
+
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/parkingeskolapiblau"
+
+                ></ImageView>
+
+            <TextView
+
+                android:id="@+id/texto1"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:background="#e4f0e7"
+                android:padding="18dp"
+                android:text="parkingeskolapiblau"
+                android:textColor="#000"
+                android:textSize="14dp" />
+
+        </TableRow>
+
+        <TableRow
+
+            android:id="@+id/segonaFila"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#595447"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="50dp">
+
+
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/parkingcorona"
+
+                ></ImageView>
+
+            <TextView
+
+                android:id="@+id/texto2"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:background="#e4f0e7"
+                android:padding="18dp"
+                android:text="parkingcorona"
+                android:textColor="#000"
+                android:textSize="14dp" />
+
+        </TableRow>
+
+        <TableRow
+
+            android:id="@+id/terceraFila"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#595447"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="50dp">
+
+
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/parkingestacioatenea"
+
+                ></ImageView>
+
+            <TextView
+
+                android:id="@+id/texto3"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:background="#e4f0e7"
+                android:padding="18dp"
+                android:text="parkingestacioatenea"
+                android:textColor="#000"
+                android:textSize="14dp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</ScrollView>

@@ -24,7 +24,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:src="@drawable/restaurants"
-            android:id="@+id/restaurant"></ImageView>
+            android:id="@+id/restaurant"
+            android:tag="restaurant"></ImageView>
 
         <ImageView
             android:layout_width="match_parent"
@@ -45,7 +46,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:src="@drawable/parking"
-            android:id="@+id/parking"></ImageView>
+            android:id="@+id/parking"
+            android:tag="parking"></ImageView>
 
         <ImageView
             android:layout_width="match_parent"
