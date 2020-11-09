@@ -10,7 +10,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Pràctica Gran"
+        android:text="Pràctica Gran 0"
         android:gravity="center"
         android:textSize="60dp"></TextView>
 
