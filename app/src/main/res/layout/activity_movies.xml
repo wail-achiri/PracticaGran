@@ -1,0 +1,151 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/simpleTableLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"> <!-- stretch the second column of the layout-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/general">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CARTELERA"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:background="@color/shell"></TextView>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:id="@+id/layout1"
+            android:background="@color/blancoFondo">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bloodshot"
+                android:id="@+id/imgBloodshot">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bloodshot"
+                android:textSize="40dp"
+                android:id="@+id/titulBlood"
+                android:layout_toRightOf="@+id/imgBloodshot"
+                android:layout_marginLeft="3dp">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/descBlood"
+                android:layout_toRightOf="@id/imgBloodshot"
+                android:layout_below="@+id/titulBlood"
+                android:justificationMode="inter_word"
+                android:layout_marginRight="4dp">
+            </TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout1"
+            android:id="@+id/layout2"
+            android:layout_marginTop="15dp"
+            android:background="@color/blancoFondo">
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="170dp"
+                android:src="@drawable/blanca"
+                android:id="@+id/imgBlanca"></ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Blanca Nieves"
+                android:textSize="40dp"
+                android:id="@+id/titulBlanca"
+                android:layout_toRightOf="@+id/imgBlanca"
+                android:layout_marginLeft="3dp">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/descBlanca"
+                android:layout_toRightOf="@id/imgBlanca"
+                android:layout_below="@+id/titulBlanca"
+                android:justificationMode="inter_word"
+                android:layout_marginRight="4dp">
+            </TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout2"
+            android:id="@+id/layout3"
+            android:layout_marginTop="15dp"
+            android:background="@color/blancoFondo">
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="170dp"
+                android:src="@drawable/aves"
+                android:id="@+id/imgAves"></ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aves de Presa"
+                android:textSize="40dp"
+                android:id="@+id/titulAves"
+                android:layout_toRightOf="@+id/imgAves"
+                android:layout_marginLeft="3dp">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/descAves"
+                android:layout_toRightOf="@id/imgAves"
+                android:layout_below="@+id/titulAves"
+                android:justificationMode="inter_word"
+                android:layout_marginRight="4dp">
+            </TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout3"
+            android:id="@+id/layout4"
+            android:layout_marginTop="15dp"
+            android:background="@color/blancoFondo">
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="170dp"
+                android:src="@drawable/maldicion"
+                android:id="@+id/imgMaldicion"></ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="La Maldición"
+                android:textSize="40dp"
+                android:id="@+id/titulMaldi"
+                android:layout_toRightOf="@+id/imgMaldicion"
+                android:layout_marginLeft="3dp">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/descMald"
+                android:layout_toRightOf="@id/imgMaldicion"
+                android:layout_below="@+id/titulMaldi"
+                android:justificationMode="inter_word"
+                android:layout_marginRight="4dp">
+            </TextView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</ScrollView>
