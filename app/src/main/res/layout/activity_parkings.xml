@@ -3,7 +3,7 @@
     android:id="@+id/simpleTableLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#262522"> <!-- stretch the second column of the layout-->
+    android:background="#262522">
 
 
     <TableLayout
@@ -13,13 +13,13 @@
         <TextView
             android:text="PARKINGS DE GRANOLLERS"
             android:gravity="center"
-            android:layout_marginTop="50dp"
+            android:layout_margin="25dp"
             android:textSize="25sp"
             android:textColor="#e4f0e7"
+            android:textStyle="bold|italic"
             >
         </TextView>
 
-        <!-- first row of the table layout-->
         <TableRow
 
             android:id="@+id/primeraFila"
@@ -27,29 +27,63 @@
             android:layout_height="wrap_content"
             android:background="#595447"
             android:layout_marginBottom="10dp"
-            android:layout_marginTop="75dp">
-
-            <!-- first element of the row-->
+            android:layout_margin="10dp">
 
             <ImageView
                 android:layout_width="140dp"
-                android:layout_height="100dp"
+                android:layout_height="130dp"
                 android:layout_margin="10dp"
                 android:src="@drawable/parkingeskolapiblau"
 
                 ></ImageView>
 
-            <TextView
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
 
-                android:id="@+id/texto1"
-                android:layout_width="wrap_content"
-                android:layout_height="100dp"
-                android:layout_margin="10dp"
-                android:background="#e4f0e7"
-                android:padding="18dp"
-                android:text="parkingeskolapiblau"
-                android:textColor="#000"
-                android:textSize="14dp" />
+                <TextView
+
+                    android:id="@+id/texto1Titulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:autoSizeTextType="uniform"
+                    android:background="#e4f0e7"
+                    android:padding="10dp"
+                    android:text="Eskolapi Blau"
+                    android:textColor="#000"
+                    android:textSize="11dp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+
+                    android:id="@+id/texto1Direccion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autoSizeTextType="uniform"
+                    android:background="#e4f0e7"
+                    android:padding="10dp"
+                    android:text="Direcció: Carrer Francisco de Quevedo, 08402 Granollers, Barcelona"
+                    android:textColor="#000"
+                    android:textSize="11dp"
+                    android:textStyle="italic" />
+
+                <TextView
+
+                    android:id="@+id/texto1Info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autoSizeTextType="uniform"
+                    android:background="#e4f0e7"
+                    android:padding="10dp"
+                    android:text="Plaçes: 72 / 200"
+                    android:textColor="#000"
+                    android:textSize="11dp"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+
 
         </TableRow>
 
@@ -59,29 +93,63 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:background="#595447"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="50dp">
+            android:layout_margin="10dp">
 
 
             <ImageView
                 android:layout_width="140dp"
-                android:layout_height="100dp"
+                android:layout_height="130dp"
                 android:layout_margin="10dp"
                 android:src="@drawable/parkingcorona"
 
                 ></ImageView>
 
-            <TextView
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
 
-                android:id="@+id/texto2"
-                android:layout_width="wrap_content"
-                android:layout_height="100dp"
-                android:layout_margin="10dp"
-                android:background="#e4f0e7"
-                android:padding="18dp"
-                android:text="parkingcorona"
-                android:textColor="#000"
-                android:textSize="14dp" />
+                <TextView
+
+                    android:id="@+id/texto2Titulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:autoSizeTextType="uniform"
+                    android:background="#e4f0e7"
+                    android:padding="10dp"
+                    android:text="Pàrking Corona"
+                    android:textColor="#000"
+                    android:textSize="11dp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+
+                    android:id="@+id/texto2Direccion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autoSizeTextType="uniform"
+                    android:background="#e4f0e7"
+                    android:padding="10dp"
+                    android:text="Direcció: Carrer Sant Josep de Calassanç, 16, 08402 Granollers, Barcelona"
+                    android:textColor="#000"
+                    android:textSize="11dp"
+                    android:textStyle="italic" />
+
+                <TextView
+
+                    android:id="@+id/texto2Info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autoSizeTextType="uniform"
+                    android:background="#e4f0e7"
+                    android:padding="10dp"
+                    android:text="Plaçes: 187 / 450"
+                    android:textColor="#000"
+                    android:textSize="11dp"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
 
         </TableRow>
 
@@ -91,29 +159,129 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:background="#595447"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="50dp">
+            android:layout_margin="10dp">
 
 
             <ImageView
                 android:layout_width="140dp"
-                android:layout_height="100dp"
+                android:layout_height="130dp"
                 android:layout_margin="10dp"
                 android:src="@drawable/parkingestacioatenea"
 
                 ></ImageView>
 
-            <TextView
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
 
-                android:id="@+id/texto3"
-                android:layout_width="wrap_content"
-                android:layout_height="100dp"
+                <TextView
+
+                    android:id="@+id/texto3Titulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:autoSizeTextType="uniform"
+                    android:background="#e4f0e7"
+                    android:padding="10dp"
+                    android:text="Estació Atenea"
+                    android:textColor="#000"
+                    android:textSize="11dp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+
+                    android:id="@+id/texto3Direccion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autoSizeTextType="uniform"
+                    android:background="#e4f0e7"
+                    android:padding="10dp"
+                    android:text="Direcció: Passeig Cristòfol Colom, 21, 08402 Granollers, Barcelona"
+                    android:textColor="#000"
+                    android:textSize="11dp"
+                    android:textStyle="italic" />
+
+                <TextView
+
+                    android:id="@+id/texto3Info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autoSizeTextType="uniform"
+                    android:background="#e4f0e7"
+                    android:padding="10dp"
+                    android:text="Plaçes: 419 / 700"
+                    android:textColor="#000"
+                    android:textSize="11dp"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+
+            android:id="@+id/cuartaFila"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#595447"
+            android:layout_margin="10dp">
+
+
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="130dp"
                 android:layout_margin="10dp"
-                android:background="#e4f0e7"
-                android:padding="18dp"
-                android:text="parkingestacioatenea"
-                android:textColor="#000"
-                android:textSize="14dp" />
+                android:src="@drawable/parkingteatreauditori"
+
+                ></ImageView>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/texto4Titulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:autoSizeTextType="uniform"
+                    android:background="#e4f0e7"
+                    android:padding="10dp"
+                    android:text="Teatre - Auditori"
+                    android:textColor="#000"
+                    android:textSize="11dp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+
+                    android:id="@+id/texto4Direccion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autoSizeTextType="uniform"
+                    android:background="#e4f0e7"
+                    android:padding="10dp"
+                    android:text="Direcció: Carrer de Ponent, 41, 08401 Granollers, Barcelona"
+                    android:textColor="#000"
+                    android:textSize="11dp"
+                    android:textStyle="italic" />
+
+                <TextView
+
+                    android:id="@+id/texto4Info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autoSizeTextType="uniform"
+                    android:background="#e4f0e7"
+                    android:padding="10dp"
+                    android:text="Plaçes: 510 / 1200"
+                    android:textColor="#000"
+                    android:textSize="11dp"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
 
         </TableRow>
 
