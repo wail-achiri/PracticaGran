@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/simpleTableLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#262522">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+        <TextView
+            android:text="RESTAURANTS DE GRANOLLERS"
+            android:gravity="center"
+            android:layout_margin="25dp"
+            android:textSize="25sp"
+            android:textColor="#e4f0e7"
+            android:textStyle="bold|italic"
+            >
+        </TextView>
+
+        <TableRow
+
+            android:id="@+id/primeraFila"
+
+            android:layout_height="wrap_content"
+            android:background="#595447"
+            android:layout_marginBottom="10dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="130dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/trabuc"
+
+                ></ImageView>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/texto1Titulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:autoSizeTextType="uniform"
+                    android:background="#e4f0e7"
+                    android:padding="10dp"
+                    android:text="Restaurant El Trabuc"
+                    android:textColor="#000"
+                    android:textSize="11dp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+
+                    android:id="@+id/texto1Direccion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autoSizeTextType="uniform"
+                    android:background="#e4f0e7"
+                    android:padding="10dp"
+                    android:text="Direcció: Camí de Can Bassa, 2, 08401 Granollers, Barcelona"
+                    android:textColor="#000"
+                    android:textSize="11dp"
+                    android:textStyle="italic" />
+
+                <TextView
+
+                    android:id="@+id/texto1Info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autoSizeTextType="uniform"
+                    android:background="#e4f0e7"
+                    android:padding="10dp"
+                    android:text="Pàgina web: -"
+                    android:textColor="#000"
+                    android:textSize="11dp"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+
+
+        </TableRow>
+
+        <TableRow
+
+            android:id="@+id/segonaFila"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#595447"
+            android:layout_margin="10dp">
+
+
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="130dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/parkingcorona"
+
+                ></ImageView>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/texto2Titulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:autoSizeTextType="uniform"
+                    android:background="#e4f0e7"
+                    android:padding="10dp"
+                    android:text="Restaurant La Gresca"
+                    android:textColor="#000"
+                    android:textSize="11dp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+
+                    android:id="@+id/texto2Direccion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autoSizeTextType="uniform"
+                    android:background="#e4f0e7"
+                    android:padding="10dp"
+                    android:text="Direcció: Carrer de Francesc Macià i Llussà, 261, 08401 Granollers, Barcelona"
+                    android:textColor="#000"
+                    android:textSize="11dp"
+                    android:textStyle="italic" />
+
+                <TextView
+
+                    android:id="@+id/texto2Info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autoSizeTextType="uniform"
+                    android:background="#e4f0e7"
+                    android:padding="10dp"
+                    android:text="Pàgina web: -"
+                    android:textColor="#000"
+                    android:textSize="11dp"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+
+            android:id="@+id/terceraFila"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#595447"
+            android:layout_margin="10dp">
+
+
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="130dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/parkingestacioatenea"
+
+                ></ImageView>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/texto3Titulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:autoSizeTextType="uniform"
+                    android:background="#e4f0e7"
+                    android:padding="10dp"
+                    android:text="-"
+                    android:textColor="#000"
+                    android:textSize="11dp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+
+                    android:id="@+id/texto3Direccion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autoSizeTextType="uniform"
+                    android:background="#e4f0e7"
+                    android:padding="10dp"
+                    android:text="Direcció: -"
+                    android:textColor="#000"
+                    android:textSize="11dp"
+                    android:textStyle="italic" />
+
+                <TextView
+
+                    android:id="@+id/texto3Info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autoSizeTextType="uniform"
+                    android:background="#e4f0e7"
+                    android:padding="10dp"
+                    android:text="Pàgina web: -"
+                    android:textColor="#000"
+                    android:textSize="11dp"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+
+            android:id="@+id/cuartaFila"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#595447"
+            android:layout_margin="10dp">
+
+
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="130dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/parkingteatreauditori"
+
+                ></ImageView>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/texto4Titulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:autoSizeTextType="uniform"
+                    android:background="#e4f0e7"
+                    android:padding="10dp"
+                    android:text="-"
+                    android:textColor="#000"
+                    android:textSize="11dp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+
+                    android:id="@+id/texto4Direccion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autoSizeTextType="uniform"
+                    android:background="#e4f0e7"
+                    android:padding="10dp"
+                    android:text="Direcció: -"
+                    android:textColor="#000"
+                    android:textSize="11dp"
+                    android:textStyle="italic" />
+
+                <TextView
+
+                    android:id="@+id/texto4Info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autoSizeTextType="uniform"
+                    android:background="#e4f0e7"
+                    android:padding="10dp"
+                    android:text="Pàgina web: -"
+                    android:textColor="#000"
+                    android:textSize="11dp"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+
+        </TableRow>
+
+    </TableLayout>
+
+</ScrollView>
