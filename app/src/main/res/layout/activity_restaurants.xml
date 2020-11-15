@@ -64,7 +64,7 @@
                     android:autoSizeTextType="uniform"
                     android:background="#e4f0e7"
                     android:padding="10dp"
-                    android:text="Direcció: Camí de Can Bassa, 2, 08401 Granollers, Barcelona"
+                    android:text="@string/direcTrabuc"
                     android:textColor="#000"
                     android:textSize="11dp"
                     android:textStyle="italic" />
@@ -131,7 +131,7 @@
                     android:autoSizeTextType="uniform"
                     android:background="#e4f0e7"
                     android:padding="10dp"
-                    android:text="Direcció: Carrer de Francesc Macià i Llussà, 261, 08401 Granollers, Barcelona"
+                    android:text="@string/direcLaGresca"
                     android:textColor="#000"
                     android:textSize="11dp"
                     android:textStyle="italic" />
