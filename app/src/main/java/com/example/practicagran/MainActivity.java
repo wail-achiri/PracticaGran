@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     ImageView restaurants;
     ImageView parkings;
     ImageView movies;
+    ImageView hotels;
 
 
     @Override
@@ -26,6 +27,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         movies = findViewById(R.id.movie);
         movies.setOnClickListener(this);
+
+        hotels = findViewById(R.id.hotel);
+        hotels.setOnClickListener(this);
 
     }
 
@@ -52,8 +56,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
         else if(nomImatge.equals("hotel"))
         {
-            //Intent intent = new Intent(this,Movies.class);
-            //startActivity(intent);
+            Intent intent = new Intent(this,hotels.class);
+            startActivity(intent);
         }
     }
 }
