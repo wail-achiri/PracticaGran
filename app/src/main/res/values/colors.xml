@@ -3,6 +3,8 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+    <color name="negro">#000000</color>
     <color name="blancoFondo">#f4f4f4</color>
     <color name="shell">#fff5ee</color>
+    <color name="cardview_dark_background">#f4f4f4</color>
 </resources>

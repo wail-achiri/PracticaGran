@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#161616"
+    android:background="@color/negro"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -16,7 +16,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
-
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -27,12 +26,34 @@
             </TextView>
         </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Filtre:"
+                android:textColor="@color/blancoFondo"
+                android:textSize="20dp"></TextView>
+
+            <Spinner
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:entries="@array/hotels_spinner"
+                android:background="@color/colorPrimary"
+                android:id="@+id/spinner_hotel"></Spinner>
+        </LinearLayout>
+
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_marginTop="16dp"
-            android:background="@color/blancoFondo"
+            app:cardBackgroundColor="@color/blancoFondo"
             android:layout_height="wrap_content"
-            app:cardCornerRadius="10dp">
+            app:cardCornerRadius="10dp"
+            android:id="@+id/card1">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -134,7 +155,7 @@
                             android:layout_width="wrap_content"
                             android:layout_marginTop="-8dp"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/irishotelround"/>
+                            android:src="@drawable/img_h_irishotelround"/>
                     </RelativeLayout>
 
                 </LinearLayout>
@@ -218,9 +239,10 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_marginTop="16dp"
-            android:background="@color/blancoFondo"
+            android:background="@color/colorPrimaryDark"
             android:layout_height="wrap_content"
-            app:cardCornerRadius="10dp">
+            app:cardCornerRadius="10dp"
+            android:id="@+id/card2">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -266,19 +288,6 @@
                                 android:layout_height="wrap_content"
                                 android:src="@drawable/estrella"
                                 android:layout_marginLeft="2dp" />
-
-                            <ImageView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:src="@drawable/estrella"
-                                android:layout_marginLeft="2dp" />
-
-                            <ImageView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:src="@drawable/estrella"
-                                android:layout_marginLeft="2dp" />
-
                         </LinearLayout>
 
                         <LinearLayout
@@ -322,7 +331,7 @@
                             android:layout_width="wrap_content"
                             android:layout_marginTop="-8dp"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/augustaround" />
+                            android:src="@drawable/img_h_augustaround" />
                     </RelativeLayout>
 
                 </LinearLayout>
@@ -408,7 +417,8 @@
             android:layout_marginTop="16dp"
             android:background="@color/blancoFondo"
             android:layout_height="wrap_content"
-            app:cardCornerRadius="10dp">
+            app:cardCornerRadius="10dp"
+            android:id="@+id/card3">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -460,13 +470,6 @@
                                 android:layout_height="wrap_content"
                                 android:src="@drawable/estrella"
                                 android:layout_marginLeft="2dp" />
-
-                            <ImageView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:src="@drawable/estrella"
-                                android:layout_marginLeft="2dp" />
-
                         </LinearLayout>
 
                         <LinearLayout
@@ -510,7 +513,7 @@
                             android:layout_width="wrap_content"
                             android:layout_marginTop="-8dp"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/hotelciutatround" />
+                            android:src="@drawable/img_h_hotelciutatround" />
                     </RelativeLayout>
 
                 </LinearLayout>
@@ -596,7 +599,8 @@
             android:layout_marginTop="16dp"
             android:background="@color/blancoFondo"
             android:layout_height="wrap_content"
-            app:cardCornerRadius="10dp">
+            app:cardCornerRadius="10dp"
+            android:id="@+id/card4">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -648,13 +652,6 @@
                                 android:layout_height="wrap_content"
                                 android:src="@drawable/estrella"
                                 android:layout_marginLeft="2dp" />
-
-                            <ImageView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:src="@drawable/estrella"
-                                android:layout_marginLeft="2dp" />
-
                         </LinearLayout>
 
                         <LinearLayout
@@ -698,7 +695,7 @@
                             android:layout_width="wrap_content"
                             android:layout_marginTop="-8dp"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/granollersround" />
+                            android:src="@drawable/img_h_granollersround" />
                     </RelativeLayout>
 
                 </LinearLayout>

@@ -28,14 +28,14 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/restaurants"
+            android:src="@drawable/img_icon_restaurants"
             android:id="@+id/restaurant"
             android:tag="restaurant"></ImageView>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/hotels"
+            android:src="@drawable/img_icon_hotels"
             android:layout_marginLeft="10dp"
             android:id="@+id/hotel"
             android:tag="hotel">
@@ -51,14 +51,14 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/parking"
+            android:src="@drawable/img_icon_parking"
             android:id="@+id/parking"
             android:tag="parking"></ImageView>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/movies"
+            android:src="@drawable/img_icon_movies"
             android:layout_marginLeft="10dp"
             android:id="@+id/movie"
             android:tag="movie">
