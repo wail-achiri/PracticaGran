@@ -229,7 +229,7 @@
                             android:layout_marginLeft="5dp"
                             android:layout_height="match_parent"
                             android:numStars="5"
-                            android:progressDrawable="@drawable/estrellas_editadas"
+                            android:progressDrawable="@drawable/estrellas_ratingBar"
                             android:rating="3.4"/>
                     </LinearLayout>
                 </LinearLayout>
@@ -405,7 +405,7 @@
                             android:layout_marginLeft="5dp"
                             android:layout_height="match_parent"
                             android:numStars="5"
-                            android:progressDrawable="@drawable/estrellas_editadas"
+                            android:progressDrawable="@drawable/estrellas_ratingBar"
                             android:rating="3.4"/>
                     </LinearLayout>
                 </LinearLayout>
@@ -587,7 +587,7 @@
                             android:layout_marginLeft="5dp"
                             android:layout_height="match_parent"
                             android:numStars="5"
-                            android:progressDrawable="@drawable/estrellas_editadas"
+                            android:progressDrawable="@drawable/estrellas_ratingBar"
                             android:rating="3.4"/>
                     </LinearLayout>
                 </LinearLayout>
@@ -769,7 +769,7 @@
                             android:layout_marginLeft="5dp"
                             android:layout_height="match_parent"
                             android:numStars="5"
-                            android:progressDrawable="@drawable/estrellas_editadas"
+                            android:progressDrawable="@drawable/estrellas_ratingBar"
                             android:rating="3.4"/>
                     </LinearLayout>
                 </LinearLayout>

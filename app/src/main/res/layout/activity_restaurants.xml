@@ -33,7 +33,7 @@
                 android:layout_width="140dp"
                 android:layout_height="130dp"
                 android:layout_margin="10dp"
-                android:src="@drawable/trabuc"
+                android:src="@drawable/img_r_trabuc"
 
                 ></ImageView>
 
@@ -100,7 +100,7 @@
                 android:layout_width="140dp"
                 android:layout_height="130dp"
                 android:layout_margin="10dp"
-                android:src="@drawable/parkingcorona"
+                android:src="@drawable/img_p_corona"
 
                 ></ImageView>
 
@@ -166,7 +166,7 @@
                 android:layout_width="140dp"
                 android:layout_height="130dp"
                 android:layout_margin="10dp"
-                android:src="@drawable/parkingestacioatenea"
+                android:src="@drawable/img_p_estacioatenea"
 
                 ></ImageView>
 
@@ -232,7 +232,7 @@
                 android:layout_width="140dp"
                 android:layout_height="130dp"
                 android:layout_margin="10dp"
-                android:src="@drawable/parkingteatreauditori"
+                android:src="@drawable/img_p_teatreauditori"
 
                 ></ImageView>
 
