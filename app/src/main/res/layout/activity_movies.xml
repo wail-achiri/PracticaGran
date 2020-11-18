@@ -23,7 +23,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/bloodshot"
+                android:src="@drawable/img_m_bloodshot"
                 android:id="@+id/imgBloodshot">
             </ImageView>
             <TextView
@@ -57,7 +57,7 @@
             <ImageView
                 android:layout_width="130dp"
                 android:layout_height="170dp"
-                android:src="@drawable/blanca"
+                android:src="@drawable/img_m_blanca"
                 android:id="@+id/imgBlanca"></ImageView>
             <TextView
                 android:layout_width="wrap_content"
@@ -90,7 +90,7 @@
             <ImageView
                 android:layout_width="130dp"
                 android:layout_height="170dp"
-                android:src="@drawable/aves"
+                android:src="@drawable/img_m_aves"
                 android:id="@+id/imgAves"></ImageView>
             <TextView
                 android:layout_width="wrap_content"
@@ -123,7 +123,7 @@
             <ImageView
                 android:layout_width="130dp"
                 android:layout_height="170dp"
-                android:src="@drawable/maldicion"
+                android:src="@drawable/img_m_maldicion"
                 android:id="@+id/imgMaldicion"></ImageView>
             <TextView
                 android:layout_width="wrap_content"
