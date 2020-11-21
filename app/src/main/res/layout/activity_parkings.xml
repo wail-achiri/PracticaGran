@@ -11,7 +11,7 @@
         android:layout_height="match_parent"
         android:stretchColumns="1">
         <TextView
-            android:text="PARKINGS DE GRANOLLERS"
+            android:text="PARKINGS"
             android:gravity="center"
             android:layout_margin="25dp"
             android:textSize="25sp"
@@ -64,7 +64,7 @@
                     android:autoSizeTextType="uniform"
                     android:background="#e4f0e7"
                     android:padding="10dp"
-                    android:text="Direcció: Carrer Francisco de Quevedo, 08402 Granollers, Barcelona"
+                    android:text="@string/direcEskolapi"
                     android:textColor="#000"
                     android:textSize="11dp"
                     android:textStyle="italic" />
@@ -131,7 +131,7 @@
                     android:autoSizeTextType="uniform"
                     android:background="#e4f0e7"
                     android:padding="10dp"
-                    android:text="Direcció: Carrer Sant Josep de Calassanç, 16, 08402 Granollers, Barcelona"
+                    android:text="@string/direcCorona"
                     android:textColor="#000"
                     android:textSize="11dp"
                     android:textStyle="italic" />
@@ -197,7 +197,7 @@
                     android:autoSizeTextType="uniform"
                     android:background="#e4f0e7"
                     android:padding="10dp"
-                    android:text="Direcció: Passeig Cristòfol Colom, 21, 08402 Granollers, Barcelona"
+                    android:text="@string/direcAtenea"
                     android:textColor="#000"
                     android:textSize="11dp"
                     android:textStyle="italic" />
@@ -263,7 +263,7 @@
                     android:autoSizeTextType="uniform"
                     android:background="#e4f0e7"
                     android:padding="10dp"
-                    android:text="Direcció: Carrer de Ponent, 41, 08401 Granollers, Barcelona"
+                    android:text="@string/direcTeatreAuditori"
                     android:textColor="#000"
                     android:textSize="11dp"
                     android:textStyle="italic" />

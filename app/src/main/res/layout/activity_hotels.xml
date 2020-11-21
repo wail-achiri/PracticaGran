@@ -86,30 +86,30 @@
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/img_extraIco_estrella" />
+                                android:src="@drawable/img_extraico_estrella" />
 
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/img_extraIco_estrella"
+                                android:src="@drawable/img_extraico_estrella"
                                 android:layout_marginLeft="2dp" />
 
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/img_extraIco_estrella"
+                                android:src="@drawable/img_extraico_estrella"
                                 android:layout_marginLeft="2dp" />
 
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/img_extraIco_estrella"
+                                android:src="@drawable/img_extraico_estrella"
                                 android:layout_marginLeft="2dp" />
 
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/img_extraIco_estrella"
+                                android:src="@drawable/img_extraico_estrella"
                                 android:layout_marginLeft="2dp" />
 
                         </LinearLayout>
@@ -177,7 +177,7 @@
                             android:layout_gravity="center"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/img_extraIco_telef" />
+                            android:src="@drawable/img_extraico_telef" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -199,7 +199,7 @@
                             android:layout_gravity="center"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/img_extraIco_web" />
+                            android:src="@drawable/img_extraico_web" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -222,14 +222,14 @@
                             android:layout_gravity="center"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/img_extraIco" />
+                            android:src="@drawable/img_extraico" />
 
                         <RatingBar
                             android:layout_width="wrap_content"
                             android:layout_marginLeft="5dp"
                             android:layout_height="match_parent"
                             android:numStars="5"
-                            android:progressDrawable="@drawable/estrellas_ratingBar"
+                            android:progressDrawable="@drawable/estrellas_ratingbar"
                             android:rating="3.4"/>
                     </LinearLayout>
                 </LinearLayout>
@@ -275,18 +275,18 @@
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/img_extraIco_estrella" />
+                                android:src="@drawable/img_extraico_estrella" />
 
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/img_extraIco_estrella"
+                                android:src="@drawable/img_extraico_estrella"
                                 android:layout_marginLeft="2dp" />
 
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/img_extraIco_estrella"
+                                android:src="@drawable/img_extraico_estrella"
                                 android:layout_marginLeft="2dp" />
                         </LinearLayout>
 
@@ -353,7 +353,7 @@
                             android:layout_gravity="center"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/img_extraIco_telef" />
+                            android:src="@drawable/img_extraico_telef" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -375,7 +375,7 @@
                             android:layout_gravity="center"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/img_extraIco_web" />
+                            android:src="@drawable/img_extraico_web" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -398,14 +398,14 @@
                             android:layout_gravity="center"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/img_extraIco" />
+                            android:src="@drawable/img_extraico" />
 
                         <RatingBar
                             android:layout_width="wrap_content"
                             android:layout_marginLeft="5dp"
                             android:layout_height="match_parent"
                             android:numStars="5"
-                            android:progressDrawable="@drawable/estrellas_ratingBar"
+                            android:progressDrawable="@drawable/estrellas_ratingbar"
                             android:rating="3.4"/>
                     </LinearLayout>
                 </LinearLayout>
@@ -451,24 +451,24 @@
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/img_extraIco_estrella" />
+                                android:src="@drawable/img_extraico_estrella" />
 
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/img_extraIco_estrella"
+                                android:src="@drawable/img_extraico_estrella"
                                 android:layout_marginLeft="2dp" />
 
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/img_extraIco_estrella"
+                                android:src="@drawable/img_extraico_estrella"
                                 android:layout_marginLeft="2dp" />
 
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/img_extraIco_estrella"
+                                android:src="@drawable/img_extraico_estrella"
                                 android:layout_marginLeft="2dp" />
                         </LinearLayout>
 
@@ -535,7 +535,7 @@
                             android:layout_gravity="center"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/img_extraIco_telef" />
+                            android:src="@drawable/img_extraico_telef" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -557,7 +557,7 @@
                             android:layout_gravity="center"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/img_extraIco_web" />
+                            android:src="@drawable/img_extraico_web" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -580,14 +580,14 @@
                             android:layout_gravity="center"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/img_extraIco" />
+                            android:src="@drawable/img_extraico" />
 
                         <RatingBar
                             android:layout_width="wrap_content"
                             android:layout_marginLeft="5dp"
                             android:layout_height="match_parent"
                             android:numStars="5"
-                            android:progressDrawable="@drawable/estrellas_ratingBar"
+                            android:progressDrawable="@drawable/estrellas_ratingbar"
                             android:rating="3.4"/>
                     </LinearLayout>
                 </LinearLayout>
@@ -633,24 +633,24 @@
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/img_extraIco_estrella" />
+                                android:src="@drawable/img_extraico_estrella" />
 
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/img_extraIco_estrella"
+                                android:src="@drawable/img_extraico_estrella"
                                 android:layout_marginLeft="2dp" />
 
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/img_extraIco_estrella"
+                                android:src="@drawable/img_extraico_estrella"
                                 android:layout_marginLeft="2dp" />
 
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/img_extraIco_estrella"
+                                android:src="@drawable/img_extraico_estrella"
                                 android:layout_marginLeft="2dp" />
                         </LinearLayout>
 
@@ -717,7 +717,7 @@
                             android:layout_gravity="center"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/img_extraIco_telef" />
+                            android:src="@drawable/img_extraico_telef" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -739,7 +739,7 @@
                             android:layout_gravity="center"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/img_extraIco_web" />
+                            android:src="@drawable/img_extraico_web" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -762,14 +762,14 @@
                             android:layout_gravity="center"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/img_extraIco" />
+                            android:src="@drawable/img_extraico" />
 
                         <RatingBar
                             android:layout_width="wrap_content"
                             android:layout_marginLeft="5dp"
                             android:layout_height="match_parent"
                             android:numStars="5"
-                            android:progressDrawable="@drawable/estrellas_ratingBar"
+                            android:progressDrawable="@drawable/estrellas_ratingbar"
                             android:rating="3.4"/>
                     </LinearLayout>
                 </LinearLayout>
