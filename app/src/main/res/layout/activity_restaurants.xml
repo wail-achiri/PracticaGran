@@ -23,7 +23,7 @@
                 android:text="RESTAURANTS"
                 android:gravity="center"
                 android:textSize="24dp"
-                android:textColor="#595447"
+                android:textColor="@color/blancoFondo"
                 android:textStyle="bold|italic">
             </TextView>
         </LinearLayout>
@@ -88,31 +88,31 @@
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/img_extraIco_estrella" />
+                                android:src="@drawable/img_extraico_estrella" />
 
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="2dp"
-                                android:src="@drawable/img_extraIco_estrella" />
+                                android:src="@drawable/img_extraico_estrella" />
 
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="2dp"
-                                android:src="@drawable/img_extraIco_estrella" />
+                                android:src="@drawable/img_extraico_estrella" />
 
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="2dp"
-                                android:src="@drawable/img_extraIco_estrella" />
+                                android:src="@drawable/img_extraico_estrella" />
 
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="2dp"
-                                android:src="@drawable/img_extraIco_estrella" />
+                                android:src="@drawable/img_extraico_estrella" />
 
                         </LinearLayout>
 
@@ -182,7 +182,7 @@
                             android:layout_gravity="center"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/img_extraIco_telef" />
+                            android:src="@drawable/img_extraico_telef" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -204,7 +204,7 @@
                             android:layout_gravity="center"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/img_extraIco_web" />
+                            android:src="@drawable/img_extraico_web" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -219,15 +219,14 @@
                         android:layout_width="wrap_content"
                         android:orientation="horizontal"
                         android:layout_weight="1"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp">
+                        android:layout_height="wrap_content">
 
 
                         <ImageView
                             android:layout_gravity="center"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/img_extraIco" />
+                            android:src="@drawable/img_extraico" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -283,31 +282,31 @@
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/img_extraIco_estrella" />
+                                android:src="@drawable/img_extraico_estrella" />
 
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="2dp"
-                                android:src="@drawable/img_extraIco_estrella" />
+                                android:src="@drawable/img_extraico_estrella" />
 
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="2dp"
-                                android:src="@drawable/img_extraIco_estrella" />
+                                android:src="@drawable/img_extraico_estrella" />
 
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="2dp"
-                                android:src="@drawable/img_extraIco_estrella" />
+                                android:src="@drawable/img_extraico_estrella" />
 
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="2dp"
-                                android:src="@drawable/img_extraIco_estrella" />
+                                android:src="@drawable/img_extraico_estrella" />
 
                         </LinearLayout>
 
@@ -377,7 +376,7 @@
                             android:layout_gravity="center"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/img_extraIco_telef" />
+                            android:src="@drawable/img_extraico_telef" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -399,7 +398,7 @@
                             android:layout_gravity="center"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/img_extraIco_web" />
+                            android:src="@drawable/img_extraico_web" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -414,15 +413,14 @@
                         android:layout_width="wrap_content"
                         android:orientation="horizontal"
                         android:layout_weight="1"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp">
+                        android:layout_height="wrap_content">
 
 
                         <ImageView
                             android:layout_gravity="center"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/img_extraIco" />
+                            android:src="@drawable/img_extraico" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -477,31 +475,31 @@
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/img_extraIco_estrella" />
+                                android:src="@drawable/img_extraico_estrella" />
 
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="2dp"
-                                android:src="@drawable/img_extraIco_estrella" />
+                                android:src="@drawable/img_extraico_estrella" />
 
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="2dp"
-                                android:src="@drawable/img_extraIco_estrella" />
+                                android:src="@drawable/img_extraico_estrella" />
 
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="2dp"
-                                android:src="@drawable/img_extraIco_estrella" />
+                                android:src="@drawable/img_extraico_estrella" />
 
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="2dp"
-                                android:src="@drawable/img_extraIco_estrella" />
+                                android:src="@drawable/img_extraico_estrella" />
 
                         </LinearLayout>
 
@@ -608,8 +606,7 @@
                         android:layout_width="wrap_content"
                         android:orientation="horizontal"
                         android:layout_weight="1"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp">
+                        android:layout_height="wrap_content">
 
 
                         <ImageView
@@ -677,25 +674,25 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="2dp"
-                                android:src="@drawable/img_extraIco_estrella" />
+                                android:src="@drawable/img_extraico_estrella" />
 
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="2dp"
-                                android:src="@drawable/img_extraIco_estrella" />
+                                android:src="@drawable/img_extraico_estrella" />
 
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="2dp"
-                                android:src="@drawable/img_extraIco_estrella" />
+                                android:src="@drawable/img_extraico_estrella" />
 
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="2dp"
-                                android:src="@drawable/img_extraIco_estrella" />
+                                android:src="@drawable/img_extraico_estrella" />
 
                         </LinearLayout>
 
@@ -765,7 +762,7 @@
                             android:layout_gravity="center"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/img_extraIco_telef" />
+                            android:src="@drawable/img_extraico_telef" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -787,7 +784,7 @@
                             android:layout_gravity="center"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/img_extraIco_web" />
+                            android:src="@drawable/img_extraico_web" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -802,8 +799,7 @@
                         android:layout_width="wrap_content"
                         android:orientation="horizontal"
                         android:layout_weight="1"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp">
+                        android:layout_height="wrap_content">
 
 
                         <ImageView
@@ -865,31 +861,31 @@
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/img_extraIco_estrella" />
+                                android:src="@drawable/img_extraico_estrella" />
 
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="2dp"
-                                android:src="@drawable/img_extraIco_estrella" />
+                                android:src="@drawable/img_extraico_estrella" />
 
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="2dp"
-                                android:src="@drawable/img_extraIco_estrella" />
+                                android:src="@drawable/img_extraico_estrella" />
 
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="2dp"
-                                android:src="@drawable/img_extraIco_estrella" />
+                                android:src="@drawable/img_extraico_estrella" />
 
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="2dp"
-                                android:src="@drawable/img_extraIco_estrella" />
+                                android:src="@drawable/img_extraico_estrella" />
 
                         </LinearLayout>
 
@@ -996,8 +992,7 @@
                         android:layout_width="wrap_content"
                         android:orientation="horizontal"
                         android:layout_weight="1"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp">
+                        android:layout_height="wrap_content">
 
 
                         <ImageView
@@ -1017,5 +1012,392 @@
                 </LinearLayout>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_marginTop="16dp"
+            android:background="@color/blancoFondo"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            android:id="@+id/card7">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="14dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Ànima de Granollers"
+                            android:textColor="#000000"
+                            android:textSize="24dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/img_extraico_estrella" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="2dp"
+                                android:src="@drawable/img_extraico_estrella" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="2dp"
+                                android:src="@drawable/img_extraico_estrella" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="2dp"
+                                android:src="@drawable/img_extraico_estrella" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="2dp"
+                                android:src="@drawable/img_extraico_estrella" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="Adreça"
+                                    android:textColor="#000000"
+                                    android:textSize="20dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="27dp"
+                                    android:layout_gravity="center"
+                                    android:text="Carrer Girona, 4, 08401 Granollers, Barcelona"
+                                    android:textColor="#000000"
+                                    android:textSize="9dp" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center">
+
+                        <ImageView
+                            android:layout_width="123dp"
+                            android:layout_height="74dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginTop="-8dp"
+                            android:layout_marginRight="-8dp"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/img_r_anima" />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginLeft="6dp"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content">
+
+
+                        <ImageView
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/img_extraico_telef" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Truca'ns"
+                            android:layout_marginLeft="5dp"
+                            android:id="@+id/trucaAnima"
+                            android:textColor="#000000"
+                            android:layout_height="wrap_content" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/img_extraico_web" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Visita la web"
+                            android:layout_marginLeft="5dp"
+                            android:textColor="#000000"
+                            android:id="@+id/webAnima"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content">
+
+
+                        <ImageView
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/img_extraico" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Obrir mapa"
+                            android:layout_marginLeft="5dp"
+                            android:textColor="#000000"
+                            android:id="@+id/mapaAnima"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_marginTop="16dp"
+            android:background="@color/blancoFondo"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            android:id="@+id/card6">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="14dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Vinyam"
+                            android:textColor="#000000"
+                            android:textSize="24dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/img_extraico_estrella" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="2dp"
+                                android:src="@drawable/img_extraico_estrella" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="2dp"
+                                android:src="@drawable/img_extraico_estrella" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="2dp"
+                                android:src="@drawable/img_extraico_estrella" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="2dp"
+                                android:src="@drawable/img_extraico_estrella" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="Adreça"
+                                    android:textColor="#000000"
+                                    android:textSize="20dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="27dp"
+                                    android:layout_gravity="center"
+                                    android:text="N3 L2, Carrer Princesa, 08401 Granollers"
+                                    android:textColor="#000000"
+                                    android:textSize="9dp" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center">
+
+                        <ImageView
+                            android:layout_width="123dp"
+                            android:layout_height="74dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginTop="-8dp"
+                            android:layout_marginRight="-8dp"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/img_r_vinyam" />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginLeft="6dp"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content">
+
+
+                        <ImageView
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/img_extraico_telef" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Truca'ns"
+                            android:layout_marginLeft="5dp"
+                            android:id="@+id/trucaVinyam"
+                            android:textColor="#000000"
+                            android:layout_height="wrap_content" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/img_extraico_web" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Visita la web"
+                            android:layout_marginLeft="5dp"
+                            android:textColor="#000000"
+                            android:id="@+id/webVinyam"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content">
+
+
+                        <ImageView
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/img_extraico" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Obrir mapa"
+                            android:layout_marginLeft="5dp"
+                            android:textColor="#000000"
+                            android:id="@+id/mapaVinyam"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
     </LinearLayout>
 </ScrollView>

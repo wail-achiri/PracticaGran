@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@android:id/background" android:drawable="@drawable/img_extraIco"></item>
-    <item android:id="@android:id/secondaryProgress" android:drawable="@drawable/img_extraIco_estrella2"></item>
-    <item android:id="@android:id/progress" android:drawable="@drawable/img_extraIco_estrella"></item>
+    <item android:id="@android:id/background" android:drawable="@drawable/img_extraico"></item>
+    <item android:id="@android:id/secondaryProgress" android:drawable="@drawable/img_extraico_estrella2"></item>
+    <item android:id="@android:id/progress" android:drawable="@drawable/img_extraico_estrella"></item>
 </layer-list>

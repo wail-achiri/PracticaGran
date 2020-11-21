@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         String nomImatge = String.valueOf(imatgeCategoria.getTag());
 
 
-        if(nomImatge.equals("img_icon_parking"))
+        if(nomImatge.equals("parking"))
         {
             Intent intent = new Intent(this,Parkings.class);
             startActivity(intent);
