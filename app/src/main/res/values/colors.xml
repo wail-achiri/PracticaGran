@@ -7,4 +7,6 @@
     <color name="blancoFondo">#f4f4f4</color>
     <color name="shell">#fff5ee</color>
     <color name="cardview_dark_background">#f4f4f4</color>
+    <color name="cel">#D3ECEC</color>
+
 </resources>

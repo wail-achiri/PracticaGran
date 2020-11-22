@@ -11,8 +11,6 @@
     <string name="direcTrabuc">Direcció: Camí de Can Bassa, 2, 08401 Granollers, Barcelona</string>
     <string name="direcLaGresca">Direcció: Carrer de Francesc Macià i Llussà, 261, 08401 Granollers, Barcelona</string>
 
-
-
     <string-array name="hotels_spinner">
         <item>Tots</item>
         <item>&#9734;&#9734;&#9734; Estrellas</item>
