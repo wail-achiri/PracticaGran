@@ -19,34 +19,50 @@
                 android:orientation="vertical"
                 android:background="#F62C2C"
                 android:padding="8dp">
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="HOTELS"
-                    android:gravity="center"
-                    android:textSize="24dp"
-                    android:textColor="#FFFFFF">
-                </TextView>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/img_extraico_flecha"
+                        android:id="@+id/back">
+                    </ImageView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="HOTELS"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="24dp"
+                        android:textColor="#FFFFFF">
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="3dp">
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="3dp"
                         android:text="Filtrar:"
+                        android:textStyle="bold"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp"></TextView>
 
                     <Spinner
                         android:layout_marginLeft="5dp"
                         android:gravity="center"
-                        android:layout_width="170dp"
+                        android:layout_width="220dp"
                         android:layout_height="wrap_content"
                         android:entries="@array/hotels_spinner"
-                        android:background="@color/negro"
+
                         android:id="@+id/spinner_hotel"></Spinner>
                 </LinearLayout>
             </LinearLayout>
@@ -84,7 +100,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="Hotel Iris"
-                                    android:textColor="#fdb501"
+                                    android:textColor="@color/tituls"
                                     android:textSize="24dp" />
                                 <LinearLayout
                                     android:layout_marginTop="4dp"
@@ -175,7 +191,6 @@
                                 <ImageView
                                     android:layout_alignParentRight="true"
                                     android:layout_width="wrap_content"
-                                    android:layout_marginTop="-8dp"
                                     android:layout_height="wrap_content"
                                     android:src="@drawable/img_h_irishotelround"/>
                             </RelativeLayout>
@@ -183,7 +198,7 @@
                         </LinearLayout>
 
                         <LinearLayout
-                            android:layout_marginLeft="6dp"
+                            android:layout_marginStart="6dp"
                             android:layout_width="match_parent"
                             android:orientation="horizontal"
                             android:layout_height="wrap_content">
@@ -257,7 +272,7 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_marginTop="16dp"
-                    android:background="@color/colorPrimaryDark"
+                    app:cardBackgroundColor="@color/blancoFondo"
                     android:layout_height="wrap_content"
                     app:cardCornerRadius="10dp"
                     android:id="@+id/card2">
@@ -282,7 +297,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="Augusta Barcelona"
-                                    android:textColor="#FF5832"
+                                    android:textColor="@color/tituls"
                                     android:textSize="24dp" />
                                 <LinearLayout
                                     android:layout_marginTop="4dp"
@@ -362,7 +377,6 @@
                                 <ImageView
                                     android:layout_alignParentRight="true"
                                     android:layout_width="wrap_content"
-                                    android:layout_marginTop="-8dp"
                                     android:layout_height="wrap_content"
                                     android:src="@drawable/img_h_augustaround" />
                             </RelativeLayout>
@@ -448,7 +462,7 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_marginTop="16dp"
-                    android:background="@color/blancoFondo"
+                    app:cardBackgroundColor="@color/blancoFondo"
                     android:layout_height="wrap_content"
                     app:cardCornerRadius="10dp"
                     android:id="@+id/card3">
@@ -473,7 +487,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="Hotel Ciutat"
-                                    android:textColor="#37AF57"
+                                    android:textColor="@color/tituls"
                                     android:textSize="24dp" />
                                 <LinearLayout
                                     android:layout_marginTop="4dp"
@@ -559,7 +573,6 @@
                                 <ImageView
                                     android:layout_alignParentRight="true"
                                     android:layout_width="wrap_content"
-                                    android:layout_marginTop="-8dp"
                                     android:layout_height="wrap_content"
                                     android:src="@drawable/img_h_hotelciutatround" />
                             </RelativeLayout>
@@ -645,7 +658,7 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_marginTop="16dp"
-                    android:background="@color/blancoFondo"
+                    app:cardBackgroundColor="@color/blancoFondo"
                     android:layout_height="wrap_content"
                     app:cardCornerRadius="10dp"
                     android:id="@+id/card4">
@@ -670,7 +683,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="Hotel Granollers"
-                                    android:textColor="#AF3797"
+                                    android:textColor="@color/tituls"
                                     android:textSize="24dp" />
                                 <LinearLayout
                                     android:layout_marginTop="4dp"
@@ -754,7 +767,6 @@
                                 <ImageView
                                     android:layout_alignParentRight="true"
                                     android:layout_width="wrap_content"
-                                    android:layout_marginTop="-8dp"
                                     android:layout_height="wrap_content"
                                     android:src="@drawable/img_h_granollersround" />
                             </RelativeLayout>
@@ -804,6 +816,398 @@
                                     android:text="Visita la web"
                                     android:layout_marginLeft="5dp"
                                     android:id="@+id/webGrano"
+                                    android:textColor="#F06A90B5"
+                                    android:layout_height="wrap_content" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:orientation="horizontal"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp">
+
+
+                                <ImageView
+                                    android:layout_gravity="center"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/img_extraico_valora" />
+
+                                <RatingBar
+                                    android:layout_width="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_height="match_parent"
+                                    android:numStars="5"
+                                    android:progressDrawable="@drawable/estrellas_ratingbar"
+                                    android:rating="3.4"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="16dp"
+                    app:cardBackgroundColor="@color/blancoFondo"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="10dp"
+                    android:id="@+id/card5">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="14dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Hotel Ohla"
+                                    android:textColor="@color/tituls"
+                                    android:textSize="24dp" />
+                                <LinearLayout
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/img_extraico_estrella" />
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/img_extraico_estrella"
+                                        android:layout_marginLeft="2dp" />
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/img_extraico_estrella"
+                                        android:layout_marginLeft="2dp" />
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/img_extraico_estrella"
+                                        android:layout_marginLeft="2dp" />
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/img_extraico_estrella"
+                                        android:layout_marginLeft="2dp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:orientation="horizontal"
+                                    android:layout_width="wrap_content"
+                                    android:layout_marginTop="16dp"
+                                    android:layout_height="wrap_content">
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:orientation="vertical"
+                                        android:layout_height="wrap_content">
+
+                                        <LinearLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="horizontal">
+
+                                            <ImageView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="5dp"
+                                                android:src="@drawable/img_extraico_mapa">
+                                            </ImageView>
+
+                                            <TextView
+                                                android:layout_gravity="center"
+                                                android:layout_width="wrap_content"
+                                                android:layout_marginLeft="3dp"
+                                                android:textSize="20dp"
+                                                android:textColor="#6A90B5"
+                                                android:layout_height="wrap_content"
+                                                android:text="Adreça"
+                                                android:id="@+id/mapaOhla"/>
+                                        </LinearLayout>
+
+                                        <TextView
+                                            android:layout_gravity="center"
+                                            android:layout_width="wrap_content"
+                                            android:textSize="9dp"
+                                            android:textColor="#DF6A90B5"
+                                            android:layout_height="wrap_content"
+                                            android:text="Via Laietana, 49, 08003 Barcelona" />
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:layout_alignParentRight="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/img_h_ohlaround" />
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginLeft="6dp"
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:orientation="horizontal"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:layout_gravity="center"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/img_extraico_telef" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:text="Truca'ns"
+                                    android:layout_marginLeft="5dp"
+                                    android:id="@+id/trucaOhla"
+                                    android:textColor="#F06A90B5"
+                                    android:layout_height="wrap_content" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:orientation="horizontal"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content">
+                                <ImageView
+                                    android:layout_gravity="center"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/img_extraico_web" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:text="Visita la web"
+                                    android:layout_marginLeft="5dp"
+                                    android:id="@+id/webOhla"
+                                    android:textColor="#F06A90B5"
+                                    android:layout_height="wrap_content" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:orientation="horizontal"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp">
+
+
+                                <ImageView
+                                    android:layout_gravity="center"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/img_extraico_valora" />
+
+                                <RatingBar
+                                    android:layout_width="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_height="match_parent"
+                                    android:numStars="5"
+                                    android:progressDrawable="@drawable/estrellas_ratingbar"
+                                    android:rating="3.4"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="16dp"
+                    app:cardBackgroundColor="@color/blancoFondo"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="10dp"
+                    android:id="@+id/card6">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="14dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Hotel W"
+                                    android:textColor="@color/tituls"
+                                    android:textSize="24dp" />
+                                <LinearLayout
+                                    android:layout_marginTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/img_extraico_estrella" />
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/img_extraico_estrella"
+                                        android:layout_marginLeft="2dp" />
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/img_extraico_estrella"
+                                        android:layout_marginLeft="2dp" />
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/img_extraico_estrella"
+                                        android:layout_marginLeft="2dp" />
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/img_extraico_estrella"
+                                        android:layout_marginLeft="2dp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:orientation="horizontal"
+                                    android:layout_width="wrap_content"
+                                    android:layout_marginTop="16dp"
+                                    android:layout_height="wrap_content">
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:orientation="vertical"
+                                        android:layout_height="wrap_content">
+
+                                        <LinearLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="horizontal">
+
+                                            <ImageView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="5dp"
+                                                android:src="@drawable/img_extraico_mapa">
+                                            </ImageView>
+
+                                            <TextView
+                                                android:layout_gravity="center"
+                                                android:layout_width="wrap_content"
+                                                android:layout_marginLeft="3dp"
+                                                android:textSize="20dp"
+                                                android:textColor="#6A90B5"
+                                                android:layout_height="wrap_content"
+                                                android:text="Adreça"
+                                                android:id="@+id/mapaW"/>
+                                        </LinearLayout>
+
+                                        <TextView
+                                            android:layout_gravity="center"
+                                            android:layout_width="wrap_content"
+                                            android:textSize="9dp"
+                                            android:textColor="#DF6A90B5"
+                                            android:layout_height="wrap_content"
+                                            android:text="Plaça Rosa Del Vents 1,08039, Barcelona " />
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:layout_alignParentRight="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/img_h_wround" />
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginLeft="6dp"
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:orientation="horizontal"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:layout_gravity="center"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/img_extraico_telef" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:text="Truca'ns"
+                                    android:layout_marginLeft="5dp"
+                                    android:id="@+id/trucaW"
+                                    android:textColor="#F06A90B5"
+                                    android:layout_height="wrap_content" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:orientation="horizontal"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content">
+                                <ImageView
+                                    android:layout_gravity="center"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/img_extraico_web" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:text="Visita la web"
+                                    android:layout_marginLeft="5dp"
+                                    android:id="@+id/webW"
                                     android:textColor="#F06A90B5"
                                     android:layout_height="wrap_content" />
                             </LinearLayout>

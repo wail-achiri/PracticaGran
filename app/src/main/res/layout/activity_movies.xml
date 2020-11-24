@@ -1,23 +1,47 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/simpleTableLayout"
     android:layout_width="match_parent"
+    android:forceDarkAllowed="false"
     android:layout_height="match_parent"> <!-- stretch the second column of the layout-->
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:orientation="vertical"
         android:id="@+id/general">
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="CARTELERA"
-            android:textSize="30dp"
-            android:gravity="center"
-            android:background="@color/shell"></TextView>
+            android:orientation="vertical"
+            android:background="#F62C2C"
+            android:padding="8dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/img_extraico_flecha"
+                    android:id="@+id/back">
+                </ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="MOVIES"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="24dp"
+                    android:textColor="#FFFFFF">
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="70dp"
+            android:layout_marginTop="30dp"
+            android:padding="10dp"
             android:id="@+id/layout1"
             android:background="@color/blancoFondo">
             <ImageView
@@ -30,6 +54,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Bloodshot"
+                android:textColor="@color/tituls"
+                android:textStyle="bold"
                 android:textSize="40dp"
                 android:id="@+id/titulBlood"
                 android:layout_toRightOf="@+id/imgBloodshot"
@@ -39,9 +65,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"
                 android:text="@string/descBlood"
                 android:layout_toRightOf="@id/imgBloodshot"
                 android:layout_below="@+id/titulBlood"
+                android:textColor="@color/naranja"
+                android:textStyle="bold"
                 android:justificationMode="inter_word"
                 android:layout_marginRight="4dp">
             </TextView>
@@ -52,6 +81,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/layout1"
             android:id="@+id/layout2"
+            android:padding="10dp"
             android:layout_marginTop="15dp"
             android:background="@color/blancoFondo">
             <ImageView
@@ -64,6 +94,8 @@
                 android:layout_height="wrap_content"
                 android:text="Blanca Nieves"
                 android:textSize="40dp"
+                android:textColor="@color/tituls"
+                android:textStyle="bold"
                 android:id="@+id/titulBlanca"
                 android:layout_toRightOf="@+id/imgBlanca"
                 android:layout_marginLeft="3dp">
@@ -76,6 +108,9 @@
                 android:layout_toRightOf="@id/imgBlanca"
                 android:layout_below="@+id/titulBlanca"
                 android:justificationMode="inter_word"
+                android:layout_marginLeft="3dp"
+                android:textStyle="bold"
+                android:textColor="@color/naranja"
                 android:layout_marginRight="4dp">
             </TextView>
         </RelativeLayout>
@@ -85,6 +120,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/layout2"
             android:id="@+id/layout3"
+            android:padding="10dp"
             android:layout_marginTop="15dp"
             android:background="@color/blancoFondo">
             <ImageView
@@ -96,6 +132,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Aves de Presa"
+                android:textColor="@color/tituls"
+                android:textStyle="bold"
                 android:textSize="40dp"
                 android:id="@+id/titulAves"
                 android:layout_toRightOf="@+id/imgAves"
@@ -109,6 +147,9 @@
                 android:layout_toRightOf="@id/imgAves"
                 android:layout_below="@+id/titulAves"
                 android:justificationMode="inter_word"
+                android:textColor="@color/naranja"
+                android:textStyle="bold"
+                android:layout_marginLeft="3dp"
                 android:layout_marginRight="4dp">
             </TextView>
         </RelativeLayout>
@@ -118,6 +159,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/layout3"
             android:id="@+id/layout4"
+            android:padding="10dp"
             android:layout_marginTop="15dp"
             android:background="@color/blancoFondo">
             <ImageView
@@ -129,6 +171,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="La Maldición"
+                android:textColor="@color/tituls"
+                android:textStyle="bold"
                 android:textSize="40dp"
                 android:id="@+id/titulMaldi"
                 android:layout_toRightOf="@+id/imgMaldicion"
@@ -140,12 +184,16 @@
                 android:layout_height="match_parent"
                 android:text="@string/descMald"
                 android:layout_toRightOf="@id/imgMaldicion"
+                android:textColor="@color/naranja"
+                android:layout_marginLeft="3dp"
+                android:textStyle="bold"
                 android:layout_below="@+id/titulMaldi"
                 android:justificationMode="inter_word"
                 android:layout_marginRight="4dp">
             </TextView>
         </RelativeLayout>
-    </RelativeLayout>
+    </LinearLayout>
+
 
 
 </ScrollView>
