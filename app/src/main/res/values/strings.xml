@@ -19,10 +19,10 @@
     </string-array>
 
     <string-array name="restaurants_spinner">
-        <item>Tots</item>
-        <item>Vegetarià</item>
-        <item>Carn i Peix</item>
-        <item>Marisc</item>
-        <item>Entrepà</item>
+        <item>Tots 🍽</item>
+        <item>Vegetarià 🥗</item>
+        <item>Carn i Peix 🍖🐟</item>
+        <item>Marisc 🍤</item>
+        <item>Entrepà 🥪</item>
     </string-array>
 </resources>

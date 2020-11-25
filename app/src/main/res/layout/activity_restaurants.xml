@@ -4,18 +4,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#161616"
+    android:background="#DBD9D5"
     tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="24dp"
         android:orientation="vertical">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#F62C2C"
+            android:padding="8dp">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/img_extraico_flecha"
+                android:id="@+id/back">
+            </ImageView>
 
             <TextView
                 android:layout_width="match_parent"
@@ -34,8 +48,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Filtre:"
-                android:textColor="@color/blancoFondo"
+                android:layout_marginLeft="3dp"
+                android:text="Filtrar:"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
                 android:textSize="20dp"></TextView>
 
             <Spinner
@@ -44,14 +60,20 @@
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:entries="@array/restaurants_spinner"
-                android:background="@color/blancoFondo"
                 android:id="@+id/spinner_restaurants"></Spinner>
         </LinearLayout>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp">
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_marginTop="16dp"
-            android:background="@color/blancoFondo"
+            app:cardBackgroundColor="@color/blancoFondo"
             android:layout_height="wrap_content"
             app:cardCornerRadius="10dp"
             android:id="@+id/card1">
@@ -75,7 +97,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="El Trabuc"
+                            android:text="El Trabuc 🍖🐟🍤"
                             android:textColor="#000000"
                             android:textSize="24dp" />
 
@@ -88,12 +110,6 @@
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/img_extraico_estrella" />
-
-                            <ImageView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="2dp"
                                 android:src="@drawable/img_extraico_estrella" />
 
                             <ImageView
@@ -245,7 +261,7 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_marginTop="16dp"
-            android:background="@color/blancoFondo"
+            app:cardBackgroundColor="@color/blancoFondo"
             android:layout_height="wrap_content"
             app:cardCornerRadius="10dp"
             android:id="@+id/card2">
@@ -269,7 +285,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="El Gato Verde"
+                            android:text="Gato Verde 🥗🍖🐟"
                             android:textColor="#000000"
                             android:textSize="24dp" />
 
@@ -438,7 +454,7 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_marginTop="16dp"
-            android:background="@color/blancoFondo"
+            app:cardBackgroundColor="@color/blancoFondo"
             android:layout_height="wrap_content"
             app:cardCornerRadius="10dp"
             android:id="@+id/card3">
@@ -462,7 +478,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="El Celler de Jabugo"
+                            android:text="Celler de Jabugo 🥪"
                             android:textColor="#000000"
                             android:textSize="24dp" />
 
@@ -475,12 +491,6 @@
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/img_extraico_estrella" />
-
-                            <ImageView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="2dp"
                                 android:src="@drawable/img_extraico_estrella" />
 
                             <ImageView
@@ -631,7 +641,7 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_marginTop="16dp"
-            android:background="@color/blancoFondo"
+            app:cardBackgroundColor="@color/blancoFondo"
             android:layout_height="wrap_content"
             app:cardCornerRadius="10dp"
             android:id="@+id/card4">
@@ -655,7 +665,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Cuynes"
+                            android:text="Cuynes 🥗🍖🐟🍤"
                             android:textColor="#000000"
                             android:textSize="24dp" />
 
@@ -668,12 +678,6 @@
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/img_extraico_estrella" />
-
-                            <ImageView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="2dp"
                                 android:src="@drawable/img_extraico_estrella" />
 
                             <ImageView
@@ -824,7 +828,7 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_marginTop="16dp"
-            android:background="@color/blancoFondo"
+            app:cardBackgroundColor="@color/blancoFondo"
             android:layout_height="wrap_content"
             app:cardCornerRadius="10dp"
             android:id="@+id/card5">
@@ -848,7 +852,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Fonda Europa"
+                            android:text="Fonda Europa 🍖🐟🍤"
                             android:textColor="#000000"
                             android:textSize="24dp" />
 
@@ -861,12 +865,6 @@
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/img_extraico_estrella" />
-
-                            <ImageView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="2dp"
                                 android:src="@drawable/img_extraico_estrella" />
 
                             <ImageView
@@ -1016,7 +1014,7 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_marginTop="16dp"
-            android:background="@color/blancoFondo"
+            app:cardBackgroundColor="@color/blancoFondo"
             android:layout_height="wrap_content"
             app:cardCornerRadius="10dp"
             android:id="@+id/card7">
@@ -1040,7 +1038,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Ànima de Granollers"
+                            android:text="Ànima 🥗🍤"
                             android:textColor="#000000"
                             android:textSize="24dp" />
 
@@ -1208,7 +1206,7 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_marginTop="16dp"
-            android:background="@color/blancoFondo"
+            app:cardBackgroundColor="@color/blancoFondo"
             android:layout_height="wrap_content"
             app:cardCornerRadius="10dp"
             android:id="@+id/card6">
@@ -1232,7 +1230,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Vinyam"
+                            android:text="Vinyam 🥗🥪"
                             android:textColor="#000000"
                             android:textSize="24dp" />
 
@@ -1396,5 +1394,6 @@
                 </LinearLayout>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
+    </LinearLayout>
     </LinearLayout>
 </ScrollView>
