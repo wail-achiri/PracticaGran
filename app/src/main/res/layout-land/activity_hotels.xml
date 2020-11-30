@@ -101,7 +101,7 @@
                                     android:layout_height="wrap_content"
                                     android:text="Hotel Iris"
                                     android:textColor="@color/tituls"
-                                    android:textSize="24dp" />
+                                    android:textSize="40dp" />
                                 <LinearLayout
                                     android:layout_marginTop="4dp"
                                     android:layout_width="wrap_content"
@@ -157,16 +157,15 @@
 
                                             <ImageView
                                                 android:layout_width="wrap_content"
-                                                android:layout_height="wrap_content"
+                                                android:layout_height="30dp"
                                                 android:layout_marginTop="5dp"
-                                                android:src="@drawable/img_extraico_mapa">
-                                            </ImageView>
+                                                android:src="@drawable/img_extraico_mapa"></ImageView>
 
                                             <TextView
                                                 android:layout_gravity="center"
                                                 android:layout_width="wrap_content"
-                                                android:layout_marginLeft="3dp"
-                                                android:textSize="20dp"
+                                                android:layout_marginLeft="10dp"
+                                                android:textSize="30dp"
                                                 android:textColor="#6A90B5"
                                                 android:layout_height="wrap_content"
                                                 android:text="Adreça"
@@ -176,7 +175,7 @@
                                         <TextView
                                             android:layout_gravity="center"
                                             android:layout_width="wrap_content"
-                                            android:textSize="9dp"
+                                            android:textSize="15dp"
                                             android:textColor="#DF6A90B5"
                                             android:layout_height="wrap_content"
                                             android:text="Av. Sant Esteve, 92, 08402 Granollers" />
@@ -217,6 +216,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:text="Truca'ns"
+                                    android:textSize="25dp"
                                     android:layout_marginLeft="5dp"
                                     android:id="@+id/trucaIris"
                                     android:textColor="#F06A90B5"
@@ -240,30 +240,31 @@
                                     android:layout_marginLeft="5dp"
                                     android:textColor="#F06A90B5"
                                     android:id="@+id/webIris"
+                                    android:textSize="25dp"
                                     android:layout_height="wrap_content" />
                             </LinearLayout>
 
                             <LinearLayout
                                 android:layout_width="wrap_content"
-                                android:orientation="horizontal"
+                                android:layout_height="10dp"
+                                android:layout_marginTop="5dp"
                                 android:layout_weight="1"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="5dp">
+                                android:orientation="horizontal">
 
 
                                 <ImageView
-                                    android:layout_gravity="center"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
                                     android:src="@drawable/img_extraico_valora" />
 
                                 <RatingBar
                                     android:layout_width="wrap_content"
-                                    android:layout_marginLeft="5dp"
                                     android:layout_height="match_parent"
+                                    android:layout_marginLeft="5dp"
                                     android:numStars="5"
                                     android:progressDrawable="@drawable/estrellas_ratingbar"
-                                    android:rating="3.4"/>
+                                    android:rating="3.4" />
                             </LinearLayout>
                         </LinearLayout>
                     </LinearLayout>
@@ -298,7 +299,7 @@
                                     android:layout_height="wrap_content"
                                     android:text="Hotel Augusta"
                                     android:textColor="@color/tituls"
-                                    android:textSize="24dp" />
+                                    android:textSize="40dp" />
                                 <LinearLayout
                                     android:layout_marginTop="4dp"
                                     android:layout_width="wrap_content"
@@ -347,20 +348,20 @@
                                             </ImageView>
 
                                             <TextView
-                                                android:layout_gravity="center"
+                                                android:id="@+id/mapaAugusta"
                                                 android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_gravity="center"
                                                 android:layout_marginLeft="3dp"
-                                                android:textSize="20dp"
-                                                android:textColor="#6A90B5"
-                                                android:layout_height="wrap_content"
                                                 android:text="Adreça"
-                                                android:id="@+id/mapaAugusta"/>
+                                                android:textColor="#6A90B5"
+                                                android:textSize="30dp" />
                                         </LinearLayout>
 
                                         <TextView
                                             android:layout_gravity="center"
                                             android:layout_width="wrap_content"
-                                            android:textSize="9dp"
+                                            android:textSize="15dp"
                                             android:textColor="#DF6A90B5"
                                             android:layout_height="wrap_content"
                                             android:text="AP-7, Km 12 5, 08410, Barcelona" />
@@ -406,11 +407,10 @@
                                     android:layout_width="wrap_content"
                                     android:text="Truca'ns"
                                     android:layout_marginLeft="5dp"
+                                    android:textSize="25dp"
                                     android:id="@+id/trucaAugusta"
                                     android:textColor="#F06A90B5"
                                     android:layout_height="wrap_content" />
-
-
                             </LinearLayout>
 
                             <LinearLayout
@@ -427,6 +427,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:text="Visita la web"
+                                    android:textSize="25dp"
                                     android:layout_marginLeft="5dp"
                                     android:textColor="#F06A90B5"
                                     android:id="@+id/webAugusta"
@@ -488,7 +489,7 @@
                                     android:layout_height="wrap_content"
                                     android:text="Hotel Ciutat"
                                     android:textColor="@color/tituls"
-                                    android:textSize="24dp" />
+                                    android:textSize="40dp" />
                                 <LinearLayout
                                     android:layout_marginTop="4dp"
                                     android:layout_width="wrap_content"
@@ -546,7 +547,7 @@
                                                 android:layout_gravity="center"
                                                 android:layout_width="wrap_content"
                                                 android:layout_marginLeft="3dp"
-                                                android:textSize="20dp"
+                                                android:textSize="30dp"
                                                 android:textColor="#6A90B5"
                                                 android:layout_height="wrap_content"
                                                 android:text="Adreça"
@@ -556,7 +557,7 @@
                                         <TextView
                                             android:layout_gravity="center"
                                             android:layout_width="wrap_content"
-                                            android:textSize="9dp"
+                                            android:textSize="15dp"
                                             android:textColor="#DF6A90B5"
                                             android:layout_height="wrap_content"
                                             android:text="Turo Bruguet, 2, 08402 Granollers" />
@@ -601,6 +602,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:text="Truca'ns"
+                                    android:textSize="25dp"
                                     android:layout_marginLeft="5dp"
                                     android:id="@+id/trucaCiutat"
                                     android:textColor="#F06A90B5"
@@ -623,6 +625,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:text="Visita la web"
+                                    android:textSize="25dp"
                                     android:layout_marginLeft="5dp"
                                     android:id="@+id/webCiutat"
                                     android:textColor="#F06A90B5"
@@ -684,7 +687,7 @@
                                     android:layout_height="wrap_content"
                                     android:text="Hotel Granollers"
                                     android:textColor="@color/tituls"
-                                    android:textSize="24dp" />
+                                    android:textSize="40dp" />
                                 <LinearLayout
                                     android:layout_marginTop="4dp"
                                     android:layout_width="wrap_content"
@@ -742,7 +745,7 @@
                                                 android:layout_gravity="center"
                                                 android:layout_width="wrap_content"
                                                 android:layout_marginLeft="3dp"
-                                                android:textSize="20dp"
+                                                android:textSize="30dp"
                                                 android:textColor="#6A90B5"
                                                 android:layout_height="wrap_content"
                                                 android:text="Adreça"
@@ -752,7 +755,7 @@
                                         <TextView
                                             android:layout_gravity="center"
                                             android:layout_width="wrap_content"
-                                            android:textSize="9dp"
+                                            android:textSize="15dp"
                                             android:textColor="#DF6A90B5"
                                             android:layout_height="wrap_content"
                                             android:text="Francesc Macià i Llussà, 300, 08401 Granollers" />
@@ -795,6 +798,7 @@
                                     android:layout_width="wrap_content"
                                     android:text="Truca'ns"
                                     android:layout_marginLeft="5dp"
+                                    android:textSize="25dp"
                                     android:id="@+id/trucaGrano"
                                     android:textColor="#F06A90B5"
                                     android:layout_height="wrap_content" />
@@ -815,6 +819,7 @@
                                     android:layout_width="wrap_content"
                                     android:text="Visita la web"
                                     android:layout_marginLeft="5dp"
+                                    android:textSize="25dp"
                                     android:id="@+id/webGrano"
                                     android:textColor="#F06A90B5"
                                     android:layout_height="wrap_content" />
@@ -875,7 +880,7 @@
                                     android:layout_height="wrap_content"
                                     android:text="Hotel Ohla"
                                     android:textColor="@color/tituls"
-                                    android:textSize="24dp" />
+                                    android:textSize="40dp" />
                                 <LinearLayout
                                     android:layout_marginTop="4dp"
                                     android:layout_width="wrap_content"
@@ -938,7 +943,7 @@
                                                 android:layout_gravity="center"
                                                 android:layout_width="wrap_content"
                                                 android:layout_marginLeft="3dp"
-                                                android:textSize="20dp"
+                                                android:textSize="30dp"
                                                 android:textColor="#6A90B5"
                                                 android:layout_height="wrap_content"
                                                 android:text="Adreça"
@@ -948,7 +953,7 @@
                                         <TextView
                                             android:layout_gravity="center"
                                             android:layout_width="wrap_content"
-                                            android:textSize="9dp"
+                                            android:textSize="15dp"
                                             android:textColor="#DF6A90B5"
                                             android:layout_height="wrap_content"
                                             android:text="Via Laietana, 49, 08003 Barcelona" />
@@ -991,6 +996,7 @@
                                     android:layout_width="wrap_content"
                                     android:text="Truca'ns"
                                     android:layout_marginLeft="5dp"
+                                    android:textSize="25dp"
                                     android:id="@+id/trucaOhla"
                                     android:textColor="#F06A90B5"
                                     android:layout_height="wrap_content" />
@@ -1011,6 +1017,7 @@
                                     android:layout_width="wrap_content"
                                     android:text="Visita la web"
                                     android:layout_marginLeft="5dp"
+                                    android:textSize="25dp"
                                     android:id="@+id/webOhla"
                                     android:textColor="#F06A90B5"
                                     android:layout_height="wrap_content" />
@@ -1071,7 +1078,7 @@
                                     android:layout_height="wrap_content"
                                     android:text="Hotel W"
                                     android:textColor="@color/tituls"
-                                    android:textSize="24dp" />
+                                    android:textSize="40dp" />
                                 <LinearLayout
                                     android:layout_marginTop="4dp"
                                     android:layout_width="wrap_content"
@@ -1134,7 +1141,7 @@
                                                 android:layout_gravity="center"
                                                 android:layout_width="wrap_content"
                                                 android:layout_marginLeft="3dp"
-                                                android:textSize="20dp"
+                                                android:textSize="30dp"
                                                 android:textColor="#6A90B5"
                                                 android:layout_height="wrap_content"
                                                 android:text="Adreça"
@@ -1144,7 +1151,7 @@
                                         <TextView
                                             android:layout_gravity="center"
                                             android:layout_width="wrap_content"
-                                            android:textSize="9dp"
+                                            android:textSize="15dp"
                                             android:textColor="#DF6A90B5"
                                             android:layout_height="wrap_content"
                                             android:text="Plaça Rosa Del Vents 1,08039, Barcelona " />
@@ -1187,6 +1194,7 @@
                                     android:layout_width="wrap_content"
                                     android:text="Truca'ns"
                                     android:layout_marginLeft="5dp"
+                                    android:textSize="25dp"
                                     android:id="@+id/trucaW"
                                     android:textColor="#F06A90B5"
                                     android:layout_height="wrap_content" />
@@ -1206,6 +1214,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:text="Visita la web"
+                                    android:textSize="25dp"
                                     android:layout_marginLeft="5dp"
                                     android:id="@+id/webW"
                                     android:textColor="#F06A90B5"
